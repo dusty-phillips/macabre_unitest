@@ -1,0 +1,20 @@
+name = "unitest"
+version = "0.0.0"
+
+[dependencies]
+argv = { git = "git@github.com:dusty-phillips/macabre_argv.git", ref = "main" }
+clip = { git = "git@github.com:dusty-phillips/macabre_clip.git", ref = "main" }
+envoy = { git = "git@github.com:dusty-phillips/macabre_envoy.git", ref = "main" }
+glance = { git = "git@github.com:dusty-phillips/macabre_glance.git", ref = "main" }
+gleam_community_ansi = { git = "git@github.com:dusty-phillips/macabre_ansi.git", ref = "main" }
+gleam_stdlib = { git = "git@github.com:dusty-phillips/macabre_stdlib.git", ref = "main" }
+gleam_time = { git = "git@github.com:dusty-phillips/macabre_gleam_time.git", ref = "main" }
+prng = { git = "git@github.com:dusty-phillips/macabre_prng.git", ref = "main" }
+simplifile = { git = "git@github.com:dusty-phillips/macabre_simplifile.git", ref = "main" }
+spinner = ">= 1.3.1 and < 2.0.0"
+tobble = ">= 2.0.2 and < 3.0.0"
+
+[dev-dependencies]
+birdie = { git = "git@github.com:dusty-phillips/macabre_birdie.git", ref = "main" }
+qcheck = { git = "git@github.com:dusty-phillips/macabre_qcheck.git", ref = "main" }
+temporary = { git = "git@github.com:dusty-phillips/macabre_temporary.git", ref = "main" }
